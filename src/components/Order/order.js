@@ -6,10 +6,11 @@ import { useSelector } from "react-redux";
 import yup from "../../validate/yupGlobal";
 import Footer from "../Footer/footer";
 import "./order.css";
-
+import { useNavigate } from "react-router-dom";
 Order.propTypes = {};
 
 function Order(props) {
+  const navigate = useNavigate();
   const stateRedux = useSelector((state) => state.cart);
   const totalPrice = stateRedux.cartAr.reduce(
     (price, item) => price + item.quantity * item.price,
@@ -47,6 +48,10 @@ function Order(props) {
       order: stateRedux.cartAr,
       total: totalPrice + 20000,
     });
+    alert("Cảm ơn bạn đã mua hàng ^^!");
+    setTimeout(() => {
+      navigate("/");
+    }, 2000);
   };
   const pushData = async (data) => {
     await axios.post("http://localhost:3001/orders", data);

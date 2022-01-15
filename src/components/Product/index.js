@@ -10,6 +10,9 @@ function Product(props) {
     image: props.image,
     quantity: props.quantity,
   };
+  const handleClick = () => {
+    console.log("abc");
+  };
   return (
     <div className="feature__product-box">
       <a className="feature__product-image" data-detail={props.id}>

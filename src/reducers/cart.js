@@ -11,6 +11,15 @@ const cartReducer = (state = initialState, action) => {
         (p) => p.id === action.payload.id
       );
       if (!productInCart) {
+        //Hiện thông báo bên phải màn hình khi thêm sản phẩm vào giỏ hàng thành công.
+        let textNotification = document.querySelector(".notification-message");
+        textNotification.innerHTML = "Thêm vào giỏ hàng thành công ^^";
+        textNotification.style.display = "block";
+        setTimeout(function () {
+          textNotification.style.display = "none";
+        }, 3000);
+        //=========================================================================//
+
         return {
           cartAr: [...state.cartAr, action.payload],
         };
@@ -23,6 +32,17 @@ const cartReducer = (state = initialState, action) => {
           newcart[objIndex].quantity = 2;
         } else {
           newcart[objIndex].quantity = newcart[objIndex].quantity + 1;
+
+          //Hiện thông báo bên phải màn hình khi thêm sản phẩm vào giỏ hàng thành công.
+          let textNotification = document.querySelector(
+            ".notification-message"
+          );
+          textNotification.innerHTML = "Thêm vào giỏ hàng thành công ^^";
+          textNotification.style.display = "block";
+          setTimeout(function () {
+            textNotification.style.display = "none";
+          }, 3000);
+          //=========================================================================//
         }
         return { cartAr: [...newcart] };
       }

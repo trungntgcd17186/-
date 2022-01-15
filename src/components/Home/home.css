@@ -977,3 +977,23 @@ i.recommend__product-item__like-icon-fill {
   text-transform: uppercase;
   font-size: 1.6rem;
 }
+
+.notification-message {
+  display: none;
+  min-width: 12rem;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: var(--des-color);
+  color: var(--black-color);
+  position: fixed;
+  z-index: 100;
+  top: calc(var(--header-height) + 1rem);
+  right: 2rem;
+  font-size: 1.4rem;
+  transition: ease-in-out 1s;
+}
+.notification-message.success {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  opacity: 0.9;
+}

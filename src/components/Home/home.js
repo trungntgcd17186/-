@@ -355,6 +355,7 @@ function Home(props) {
             </div>
           </div>
         </div>
+        <div class="notification-message success"></div>
       </div>
       <Footer />
     </div>
