@@ -1,0 +1,60 @@
+.Sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #e9edf1;
+}
+
+.tab-container .icon {
+  width: 50px;
+}
+
+.icon > svg {
+  font-size: 30px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SidebarList #active {
+  background-color: #8cb1d3;
+}
+
+.sidebar-text {
+  font-size: 16px;
+}
+
+.counter-title {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.box-header {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerProducts {
+  display: flex;
+}
+
+.btn-danger,
+#filterCate,
+.search-box {
+  margin-left: 10px;
+}
+
+th {
+  font-weight: 400;
+}
+
+.imgSize {
+  width: 50px;
+  height: 50px;
+}

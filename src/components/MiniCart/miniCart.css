@@ -1,0 +1,16 @@
+.product-cart-added {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.hearder__cart-item {
+  margin-top: -10px;
+  width: 100%;
+}
+
+.header__cart-item-remove {
+  margin-left: 55px;
+}

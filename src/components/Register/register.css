@@ -1,0 +1,13 @@
+.app__container_register {
+  margin-top: 200px;
+}
+
+.input-container > input {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  padding: 2rem;
+  border: 1px solid #e0dede;
+  outline: none;
+}
