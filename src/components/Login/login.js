@@ -43,28 +43,11 @@ function Login() {
 
   return (
     <div>
-      <header className="header">
-        <div className="grid">
-          <div className="header-with-search">
-            <Link to="/" className="header__logo">
-              <i className="header__logo-icon fas fa-cannabis"></i>
-              <Link to="/">
-                <span className="header-search__logo-name">GanZ</span>
-              </Link>
-            </Link>
-            <div className="header__card">
-              <div className="btn-register-container">
-                <Link to="/register">
-                  <button className="btn btn-register-login">Đăng kí</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div className="app__container">
+    
+      <div className="app__container2">
         <div className="grid">
           <div className="form-container">
+            <div><Link to="/">Trang chủ</Link></div>
             <form id="form-login" onSubmit={handleSubmit(onOrderSubmit)}>
               <div className="form-login">
                 <h1 className="form-header">Đăng Nhập</h1>
