@@ -65,6 +65,50 @@
       "priceSale": 399000,
       "quantity": 1,
       "description": "Loại máy giặt: Cửa ngang. Lồng giặt: Lồng ngang. Khối lượng giặt: 9 Kg. Số người sử dụng: Từ 3 - 5 người. Kiểu động cơ: Truyền động trực tiếp bền & êm. Công nghệ giặt: Giặt 6 chuyển động."
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 250000,
+      "price": 199000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/bambox120.jpg",
+      "title": "03 quần lót nam Brief Boxer Bamboo kháng khuẩn.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "brand": "Adidas",
+      "category": "boxer",
+      "priceSale": 300000,
+      "price": 279000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/trunkmo49.jpg",
+      "title": "03 Quần lót nam Trunk Modal (gỗ sồi) mềm mại.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 270000,
+      "price": 199000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/cottbrig5.jpg",
+      "title": "03 quần lót nam Brief Cotton Compact co giãn.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 350000,
+      "price": 229000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/colbriefmodal4.jpg",
+      "title": "Combo 03 quần lót nam Brief Modal (gỗ sồi) mềm mại.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 8
     }
   ],
   "orders": [
@@ -246,15 +290,6 @@
       "id": 3
     },
     {
-      "productId": 6,
-      "nameUser": "Khanh",
-      "email": "khanh@gmail.com",
-      "description": "sản phẩm tốt!!!!",
-      "title": "Quần lót nam đẹp, sành điệu, thoáng mát dành riêng cho nam giới.",
-      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/nanodaiiiidblue2.jpg",
-      "id": 4
-    },
-    {
       "productId": 2,
       "title": "Áo sơ mi tay dài màu xám nhạt tuyệt đẹp cho nam giới.",
       "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/uIMG_0978_copy.jpg",
@@ -271,15 +306,6 @@
       "email": "khanh@gmail.com",
       "description": "sản phẩm tốt",
       "id": 7
-    },
-    {
-      "productId": 6,
-      "title": "Quần lót nam đẹp, sành điệu, thoáng mát dành riêng cho nam giới.",
-      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/nanodaiiiidblue2.jpg",
-      "nameUser": "Khanh",
-      "email": "khanh@gmail.com",
-      "description": "mặc thoán mát",
-      "id": 8
     },
     {
       "productId": 1,

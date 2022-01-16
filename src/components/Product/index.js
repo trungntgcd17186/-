@@ -16,7 +16,12 @@ function Product(props) {
   return (
     <div className="feature__product-box">
       <a className="feature__product-image" data-detail={props.id}>
-        <img src={props.image} alt="shirt" className="feature__product-img" />
+        <img
+          style={{ width: "300px", height: "300px" }}
+          src={props.image}
+          alt="shirt"
+          className="feature__product-img"
+        />
       </a>
       <a href="detailProduct.html" className="feature__product-name">
         {props.title}

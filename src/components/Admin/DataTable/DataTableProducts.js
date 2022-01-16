@@ -5,11 +5,21 @@ import axios from "axios";
 
 function DataTableProducts(props) {
   const [datas, setDatas] = useState([]);
+
+  //Xử lý gọi api để render sản phẩm.
   useEffect(() => {
     axios.get("http://localhost:3001/products").then((response) => {
       setDatas(response.data);
     });
   }, []);
+
+  //Xử lý gửi api để xóa sản phẩm.
+  const handleDelete = (id) => {
+    axios
+      .delete(`http://localhost:3001/products/${id}`)
+      .then(() => this.setState({ status: "Delete successful" }));
+    window.location.reload();
+  };
 
   const columns = [
     {
@@ -65,7 +75,12 @@ function DataTableProducts(props) {
             >
               <i className="fa fa-edit"></i>
             </Button>
-            <Button variant="danger">
+            <Button
+              variant="danger"
+              onClick={() => {
+                handleDelete(data.id);
+              }}
+            >
               <i className="fa fa-trash"></i>
             </Button>
           </>
