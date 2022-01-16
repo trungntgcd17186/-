@@ -57,6 +57,50 @@
       "priceSale": 399000,
       "quantity": 1,
       "description": "Loại máy giặt: Cửa ngang. Lồng giặt: Lồng ngang. Khối lượng giặt: 9 Kg. Số người sử dụng: Từ 3 - 5 người. Kiểu động cơ: Truyền động trực tiếp bền & êm. Công nghệ giặt: Giặt 6 chuyển động."
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 250000,
+      "price": 199000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/bambox120.jpg",
+      "title": "03 quần lót nam Brief Boxer Bamboo kháng khuẩn.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "brand": "Adidas",
+      "category": "boxer",
+      "priceSale": 300000,
+      "price": 279000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/trunkmo49.jpg",
+      "title": "03 Quần lót nam Trunk Modal (gỗ sồi) mềm mại.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 270000,
+      "price": 199000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/cottbrig5.jpg",
+      "title": "03 quần lót nam Brief Cotton Compact co giãn.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "brand": "ck",
+      "category": "boxer",
+      "priceSale": 350000,
+      "price": 229000,
+      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/December2021/colbriefmodal4.jpg",
+      "title": "Combo 03 quần lót nam Brief Modal (gỗ sồi) mềm mại.",
+      "description": "Top Sales",
+      "quantity": 1,
+      "id": 8
     }
   ],
   "orders": [

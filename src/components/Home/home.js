@@ -113,26 +113,8 @@ function Home(props) {
             <h2 className="feature__product-title">Sản phẩm phổ biến</h2>
             <div className="feature__product-container">
               <div id="productRender" className="grid__col-2-5">
-                {products.map((pr) => (
-                  <Product
-                    key={pr.id}
-                    id={pr.id}
-                    title={pr.title}
-                    price={pr.price}
-                    priceSale={pr.priceSale}
-                    image={pr.image}
-                    quantity={pr.quantity}
-                  />
-                ))}
-              </div>
-              <div className="grid__row grid__row-feature "></div>
-            </div>
-
-            <div className="recommend__product">
-              <h2 className="recommend__product-title">Đề xuất cho bạn</h2>
-              <div className="feature__product-container">
-                <div id="productRender" className="grid__col-2-5">
-                  {products.map((pr) => (
+                {products.map((pr, index) =>
+                  index <= 3 ? (
                     <Product
                       key={pr.id}
                       id={pr.id}
@@ -142,7 +124,33 @@ function Home(props) {
                       image={pr.image}
                       quantity={pr.quantity}
                     />
-                  ))}
+                  ) : (
+                    ""
+                  )
+                )}
+              </div>
+              <div className="grid__row grid__row-feature "></div>
+            </div>
+
+            <div className="recommend__product">
+              <h2 className="recommend__product-title">Đề xuất cho bạn</h2>
+              <div className="feature__product-container">
+                <div id="productRender" className="grid__col-2-5">
+                  {products.map((pr, index) =>
+                    pr.category == "boxer" ? (
+                      <Product
+                        key={pr.id}
+                        id={pr.id}
+                        title={pr.title}
+                        price={pr.price}
+                        priceSale={pr.priceSale}
+                        image={pr.image}
+                        quantity={pr.quantity}
+                      />
+                    ) : (
+                      ""
+                    )
+                  )}
                 </div>
               </div>
             </div>
