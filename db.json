@@ -11,14 +11,6 @@
     {
       "category": "shirt",
       "id": 3
-    },
-    {
-      "category": "feature",
-      "id": 4
-    },
-    {
-      "category": "recommend",
-      "id": 5
     }
   ],
   "products": [
@@ -246,15 +238,6 @@
       "id": 3
     },
     {
-      "productId": 6,
-      "nameUser": "Khanh",
-      "email": "khanh@gmail.com",
-      "description": "sản phẩm tốt!!!!",
-      "title": "Quần lót nam đẹp, sành điệu, thoáng mát dành riêng cho nam giới.",
-      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/nanodaiiiidblue2.jpg",
-      "id": 4
-    },
-    {
       "productId": 2,
       "title": "Áo sơ mi tay dài màu xám nhạt tuyệt đẹp cho nam giới.",
       "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/uIMG_0978_copy.jpg",
@@ -271,15 +254,6 @@
       "email": "khanh@gmail.com",
       "description": "sản phẩm tốt",
       "id": 7
-    },
-    {
-      "productId": 6,
-      "title": "Quần lót nam đẹp, sành điệu, thoáng mát dành riêng cho nam giới.",
-      "image": "https://mcdn2-coolmate.cdn.vccloud.vn/uploads/November2021/nanodaiiiidblue2.jpg",
-      "nameUser": "Khanh",
-      "email": "khanh@gmail.com",
-      "description": "mặc thoán mát",
-      "id": 8
     },
     {
       "productId": 1,
